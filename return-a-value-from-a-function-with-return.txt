@@ -1,0 +1,6 @@
+function timesFive(num){
+  return 5*num;
+return 2*num;
+return 0*num;
+}
+var num=5;
