@@ -1,0 +1,6 @@
+function rangeOfNumbers(startNum, endNum) {
+ if (startNum===endNum) {return [startNum]}
+ else if (startNum<endNum)  {
+   const rangArr=rangeOfNumbers(startNum, endNum-1)
+   rangArr.push(endNum)
+   return rangArr};}
