@@ -1,0 +1,20 @@
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  {"artist": "Bob Bob",
+  "release_year": 25,
+  "formats": ["mp3", "dvd"],
+  "title": "ololo"
+  }
+];
+myMusic["album"]=myMusic[0].artist+myMusic[0].title;
+myMusic.year=myMusic[0]["release_year"]+myMusic[0].formats
